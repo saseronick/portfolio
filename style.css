@@ -98,7 +98,7 @@
 /* hero background image for B2B SaaS use case page */
 .bgimage-B2B {
     height:100vh;
-    background: url('images/B2BSaaS.jpeg');
+    background: url('/images/B2BSaaS.jpeg');
     background-size:cover;
     position:relative;
 }
