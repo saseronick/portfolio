@@ -95,3 +95,10 @@
         .quote {
             margin: 20px 0;
         }
+/* hero background image for B2B SaaS use case page */
+.bgimage {
+    height:100vh;
+    background: url('images/B2BSaaS.jpeg');
+    background-size:cover;
+    position:relative;
+}
