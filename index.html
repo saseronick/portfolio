@@ -288,13 +288,63 @@
                 </div>
             </div>
     </section>
-  <!-- contact section-->
+ <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://esteeayceeeewhy.com/">
+                            </iframe>
+                        </div>
+                        <p>Shop</p>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields using netlify -->
+                    <form name="PortfolioContact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Interested in: <select name="interest[]" multiple>
+      <option value="coaching">Coaching</option>
+      <option value="speaking">Speaking</option>
+      <option value="collab">Collaborate</option>
+      <option value="work">Work with me</option>
+      <option value="other">Other</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+  <!-- simple contact section
     <section id="contact">
         <div class="container mt-3 contactContent">
             <h1 class="text-left">Contact Me</h1>
 <h4 class="text-left"><a href="mailto:sseronick@gmail.com">Email me</a></h4>
         </div>
-    </section>
+    </section> -->
    <!-- footer section-->
     <footer id="footer">
         <div class="container-fluid">
