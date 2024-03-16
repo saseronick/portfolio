@@ -304,12 +304,16 @@
                         <p>Shop</p>
                         <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
                         </style>
-                    </div>
-                </div> -->
+                    </div> -->
+                  
+              <!-- attempt to add ReCAPTHA here -->
+                  <div data-netlify-recaptcha="true">
+                </div>
+                </div> 
 
                 <div class="col-lg-6">
                     <!-- form fields using netlify -->
-                    <form name="PortfolioContact" method="POST" data-netlify="true">
+                    <form name="PortfolioContact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
   <p>
     <label>Name:     <input type="text" name="name" /></label>
   </p>
