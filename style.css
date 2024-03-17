@@ -58,6 +58,11 @@
 .fab {
     color: #000000;
 }
+/* iframe responsive sizing for YouTube embedded videos */
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
 /* footer styling */
 #footer {
     background-color: #808080;
